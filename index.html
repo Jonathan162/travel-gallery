@@ -1,58 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Expanding Cards Gallery</title>
-  </head>
-  <body>
-    <div class="container">
-      <div
-        class="panel active"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MnwyMTk0OTgyfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
-        "
-      >
-        <h3>Stairway</h3>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <title>Snapshots from travelling</title>
+</head>
+
+<body>
+  <div class="title">
+    <h1 class="title__main">Snapshots from travelling<span class="dot">.</span></h1>
+  </div>
+  <div class="gallery">
+    <div class="gallery__container">
+
+      <div class="panel active panel1">
+        <h3>Tokyo<span class="dot">.</span></h3>
       </div>
 
-      <div
-        class="panel"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1518051870910-a46e30d9db16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wyMTk0OTgyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-        "
-      >
-        <h3>Chair</h3>
+      <div class="panel panel2">
+        <h3>Phu Quoc<span class="dot">.</span></h3>
       </div>
 
-      <div
-        class="panel"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1482686115713-0fbcaced6e28?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MjE5NDk4Mnx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
-        "
-      >
-        <h3>Dreamy Mountains</h3>
+      <div class="panel panel3">
+        <h3>New York<span class="dot">.</span></h3>
       </div>
 
-      <div
-        class="panel"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1516559828984-fb3b99548b21?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NnwyMTk0OTgyfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
-        "
-      >
-        <h3>Ice Cream</h3>
+      <div class="panel panel4">
+        <h3>Lisbon<span class="dot">.</span></h3>
       </div>
 
-      <div
-        class="panel"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1499673238694-ed424b0c9126?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8Mjh8MjE5NDk4Mnx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
-        "
-      >
-        <h3>Jellyfish</h3>
+      <div class="panel panel5">
+        <h3>Guadalupe<span class="dot">.</span></h3>
       </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+
+  <footer>
+    <h3>Photos by: <span class="footer__author">Jonathan Rautio.</span></h3>
+  </footer>
+  <script src="./script.js"></script>
+
+</body>
+
 </html>
